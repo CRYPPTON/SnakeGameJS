@@ -2,8 +2,6 @@ const canvas = document.getElementById("canvas")
 const ctx = canvas.getContext("2d")
 var control = [false,false,false,false]
 
-$("#snakeHead").hide()
-
 class DrawElmGame{
     constructor(x,y,size,color){
         this.x = x;
