@@ -11,17 +11,6 @@ class DrawElmGame{
         this.size = size;
         this.color = color;
     }   
-    drawR(){
-        var size = this.size
-        ctx.fillStyle = this.color
-        ctx.fillRect(this.x, this.y, size, size);
-    }
-    drawF(){
-        ctx.beginPath();
-        var img = document.getElementById("food");
-        ctx.drawImage(img, this.x, this.y);
-        ctx.stroke();
-    }
     drawHead(){
         ctx.beginPath();   
         var img = document.getElementById("snakeHeadRight");   
