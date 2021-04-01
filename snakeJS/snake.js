@@ -149,10 +149,7 @@ function game(){
     
 
     snake.tail[snake.score] = new Snake(snake.x, snake.y, 20,"green",20) //ADD tail
- 
-    food.drawF()
     snake.drawHead()
-
 }
 
 function eatFood(sx,sy,fx,fy){
@@ -164,7 +161,7 @@ function eatFood(sx,sy,fx,fy){
 
 
 function checkGameOver(snake){
-    var head = {
+    var head = {foo
                 x : snake.x,
                 y : snake.y
             }
