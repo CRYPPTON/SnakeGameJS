@@ -5,10 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Snake Game</title>
     <link rel="stylesheet" href="style/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
-    <h1>Snake Game</h1>
-    <canvas height="600" width="600" id="canvas"></canvas>
-    <script src="./snakeJS/snake.js"></script>
+    <div class="snakeGame">
+        <h1>Snake Game</h1>
+        <canvas height="600" width="600" id="canvas"></canvas>
+        <script src="./snakeJS/snake.js"></script>
+    </div>   
+    <div class="score">Score : 0</div>
+    <div class="img">
+        <img id="snakeHeadLeft" src="./photo/snakeHeadLeft.png"></img>
+        <img id="snakeHeadRight" src="./photo/snakeHeadRight.png"></img>
+        <img id="snakeHeadUp" src="./photo/snakeHeadUp.png"></img>
+        <img id="snakeHeadDown" src="./photo/snakeHeadDown.png"></img>
+        <img id="tailUp" src="./photo/tailUp.png"></img>
+        <img id="tailDown" src="./photo/tailDown.png"></img>
+        <img id="tailLeft" src="./photo/tailLeft.png"></img>
+        <img id="tailRight" src="./photo/tailRight.png"></img>
+        <img id="food" src="./photo/food.png"></img>
+    </div>   
 </body>
 </html>
